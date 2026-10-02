@@ -37,10 +37,23 @@
     max-width:var(--max);margin:0 auto;padding:18px 40px;
     display:flex;justify-content:space-between;align-items:center;
   }
-  header.site .name{font-family:'Fraunces',serif;font-size:20px;font-weight:500;color:#fff;}
+  header.site .name{
+    font-family:'Fraunces',serif;font-size:20px;font-weight:500;
+    color:#FFFFFF !important;
+  }
   header.site nav{display:flex;gap:32px;}
-  header.site nav a{font-size:15px;font-weight:500;color:#fff;padding:4px 0;border-bottom:2px solid transparent;}
-  header.site nav a:hover{color:#C9D0EA;border-bottom-color:#C9D0EA;}
+  header.site nav a,
+  header.site nav a:link,
+  header.site nav a:visited{
+    font-size:15px;font-weight:500;
+    color:#FFFFFF !important;
+    padding:4px 0;border-bottom:2px solid transparent;
+  }
+  header.site nav a:hover,
+  header.site nav a:focus-visible{
+    color:#FFFFFF !important;
+    border-bottom-color:#FFFFFF;
+  }
 
   section{padding:112px 0;}
   .hero{padding:104px 0 96px;}
@@ -166,7 +179,7 @@
 <section class="wrap hero">
   <h1>Michael Martin</h1>
   <p class="role">B2B marketer, demand generation and lifecycle growth</p>
-  <p class="bio">I'm a B2B marketer at Tabush Group, an IT and cybersecurity firm, where I build the campaigns, content, and partner programs that turn cold prospects into customers. My work spans dem[...]
+  <p class="bio">I'm a B2B marketer at Tabush Group, an IT and cybersecurity firm, where I build the campaigns, content, and partner programs that turn cold prospects into customers. My work spans demand generation, lifecycle marketing, webinars, and partner marketing, all aimed at growing pipeline and revenue.</p>
   <div class="cta-row">
     <a class="btn" href="resume.pdf" target="_blank" rel="noopener">Download resume</a>
     <a class="btn ghost" href="#work">See my work</a>
@@ -190,7 +203,7 @@
     <div>
       <h3>Half Hour Huddles</h3>
       <p class="meta">Recurring executive webinar series, running since 2023</p>
-      <p>Tabush Group needed a way to build visibility and trust with senior decision-makers, not just generate another lead form. I created Half Hour Huddles as a recurring executive conversation ser[...]
+      <p>Tabush Group needed a way to build visibility and trust with senior decision-makers, not just generate another lead form. I created Half Hour Huddles as a recurring executive conversation series and have run it end to end since launch: guest recruitment, positioning, email and LinkedIn promotion, landing pages, logistics, and follow-up.</p>
       <p>Segmenting invitations by job title and tailoring messaging to each audience lifted registrations roughly 220%.</p>
     </div>
     <div class="result">
@@ -203,7 +216,7 @@
     <div>
       <h3>Law Firm Technology Survey</h3>
       <p class="meta">Annual industry research campaign, running since 2023</p>
-      <p>An annual survey campaign built to generate industry authority and qualified leads for Tabush Group. I own it end to end: audience development, promotion, response collection, lead generation[...]
+      <p>An annual survey campaign built to generate industry authority and qualified leads for Tabush Group. I own it end to end: audience development, promotion, response collection, lead generation through the resulting whitepaper and webinar, and attribution back to pipeline.</p>
       <p>The response count has grown every year since launch:</p>
 
       <div class="chart" role="img" aria-label="Survey responses by year: 103 in 2023, 120 in 2024, 143 in 2025, 231 in 2026">
